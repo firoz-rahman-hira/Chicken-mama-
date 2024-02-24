@@ -1,0 +1,165 @@
+body{
+	background-color:#11c911;
+}
+.container{
+	max-width:70%;
+	background-color:#ffffff;
+	border:3px solid #706464;
+	border-radius:5px;
+	margin:auto;
+	margin-top:80px;
+	
+}
+/* this style is only for the navbar list*/
+.navbar{
+    display: flex;
+    margin: 12px;
+    box-shadow: -1px 5px 38px 4px #606050;
+}
+.logo{
+	width:30%
+}
+ul {
+	width:50%;
+	display:flex;
+	margin-top:20px;
+	list-style-type:none;
+	
+}
+ul li{
+	padding:10px;
+	font-size:15px;
+	font-family:arial black;
+	margin:2px;
+	border-radius:30px;
+	color:black;
+	border:1px solid #11ad11;
+	text-decoration:none;
+	align-items:center;
+
+}
+.navitems {
+    margin-left: -101px;
+}
+.navitems ul li:hover{
+	background-color:#11ad11;
+	color:#fff;
+}
+a{
+	text-decoration:none;
+}
+.icons i {
+    padding: 3px;
+    margin-left:20px;
+    border: 1px solid #11c911;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.icons i:hover{
+    padding: 3px;
+    margin-left:20px;
+    border: 1px solid #e1e7e1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #11c911;
+    color: white;
+}
+
+/*the upper style coad is for the navbbar list*/
+
+.icons{
+	width:30%;
+	padding:10px;
+	margin-top:15px;
+	margin-right:10px;
+	color:#11ad11;
+}
+.fa-star{
+	color:	#11ad11;
+}
+/*this style is only for banner section*/
+.banner{
+	display:flex;
+}
+.information{
+	padding:30px;
+}
+span{
+	color:#f99800;
+	font-family:arial black;
+	margin-top:5px;
+	margin-left:5px;
+
+}
+h2 {
+    font-family: 'FontAwesome';
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: #11c911;
+    text-align: center;
+}
+
+.button {
+   background-color: #ffffff;
+   color: #000000;
+   padding: 10px;
+   font-size: 20px;
+   border-radius: 34px;
+   box-shadow: 4px 5px 34px 8px #ababa2;
+}
+
+/* this uppor style is only for the banner */
+/* this down section is only for cardsection*/
+.cardmainsection{
+	width:100%;
+}
+.cardsection1{
+	display:flex;
+}
+.cardsection2{
+	display:flex;
+}
+.cardsection3{
+	display:flex;
+}
+
+.card{
+    width: 400px;
+    margin: 12px;
+    border-radius: 13px;
+    background-color: #f1f1f1;
+    box-shadow: 5px 11px 17px 3px #606050;
+}
+.card image{
+	width:300px;
+	box-shadow:4px 5px 10px 8px red;
+}
+p {
+    text-align: justify;
+    color: #6c6b4a;
+    font-family: cursive;
+	margin:5px;
+}
+.priceandratting{
+	width:100%;
+	display:flex;
+}
+
+.price{
+	padding-right:240px;
+}
+.orderbtn {
+    margin: 5px 145px 22px;
+    color: #fff;
+    background-color: #f79e03;
+    border: 2px solid green;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'FontAwesome';
+    letter-spacing: 3px;
+}
